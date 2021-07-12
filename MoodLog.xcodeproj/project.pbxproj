@@ -13,7 +13,89 @@
 		0013711125928F5400DC6296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0013711025928F5400DC6296 /* Preview Assets.xcassets */; };
 		0013711325928F5400DC6296 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0013711225928F5400DC6296 /* Persistence.swift */; };
 		0013711625928F5400DC6296 /* MoodLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0013711425928F5400DC6296 /* MoodLog.xcdatamodeld */; };
+		0022280B2609FC2400A5F2C0 /* ActivityExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022280A2609FC2400A5F2C0 /* ActivityExpandedView.swift */; };
+		00222817260A538300A5F2C0 /* ActivityRatings+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00222815260A538300A5F2C0 /* ActivityRatings+CoreDataClass.swift */; };
+		00222818260A538300A5F2C0 /* ActivityRatings+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00222816260A538300A5F2C0 /* ActivityRatings+CoreDataProperties.swift */; };
+		0035821E26029E9200175323 /* dictation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0035821C26029E9200175323 /* dictation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0035822126029E9200175323 /* dictation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0035821A26029E9200175323 /* dictation.framework */; };
+		0035822226029E9200175323 /* dictation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0035821A26029E9200175323 /* dictation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0035822E26029FCB00175323 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0035822D26029FCB00175323 /* Intents.framework */; };
+		0035823126029FCB00175323 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035823026029FCB00175323 /* IntentHandler.swift */; };
+		0035823926029FCB00175323 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0035823826029FCB00175323 /* IntentsUI.framework */; };
+		0035823C26029FCB00175323 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035823B26029FCB00175323 /* IntentViewController.swift */; };
+		0035823F26029FCB00175323 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0035823D26029FCB00175323 /* MainInterface.storyboard */; };
+		0035824326029FCB00175323 /* SiriIntentExtensionUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0035823726029FCB00175323 /* SiriIntentExtensionUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0035824626029FCB00175323 /* SiriIntentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0035822C26029FCB00175323 /* SiriIntentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0035829A2602AE6600175323 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 003582992602AE6600175323 /* Intents.intentdefinition */; };
+		003582A22602AFBB00175323 /* MoodIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003582A12602AFBB00175323 /* MoodIntentHandler.swift */; };
+		003582A92602B0D000175323 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 003582992602AE6600175323 /* Intents.intentdefinition */; };
+		003582AE2602B1DE00175323 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003582AD2602B1DE00175323 /* AppIntent.swift */; };
+		003835D825FF522200C4D491 /* CalendarFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003835D725FF522200C4D491 /* CalendarFunction.swift */; };
+		003D0A682600E21D0043C78A /* ActivityOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D0A672600E21C0043C78A /* ActivityOptions.swift */; };
+		003D0A6B2600F4540043C78A /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D0A6A2600F4540043C78A /* ActivityView.swift */; };
+		006454E625CADBE200234BDE /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006454E525CADBE200234BDE /* MoodView.swift */; };
+		006454EC25CADD6700234BDE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006454EB25CADD6700234BDE /* SettingsView.swift */; };
+		0066E17C26039A360058E337 /* ActivitesExpanded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0066E17B26039A350058E337 /* ActivitesExpanded.swift */; };
+		00826DB325FBF68100D23ECA /* SuggestionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00826DB225FBF68100D23ECA /* SuggestionCalculator.swift */; };
+		00826DB625FBF78B00D23ECA /* MoodClassifierActicity.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 00826DB525FBF78A00D23ECA /* MoodClassifierActicity.mlmodel */; };
+		0084F285260B485A002DD73F /* AddEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0084F284260B485A002DD73F /* AddEventView.swift */; };
+		008A816725C96F61001E7F5C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008A816625C96F61001E7F5C /* HealthKit.framework */; };
+		0099742625DDBC2600787502 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099742525DDBC2600787502 /* RatingView.swift */; };
+		00B323872608DA4900DB2013 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B323862608DA4900DB2013 /* CloudKit.framework */; };
+		00E04AB825E19F2400577AAC /* SuggestionReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E04AB725E19F2400577AAC /* SuggestionReviewView.swift */; };
+		00E11DD725C87C13006A252E /* Moods+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E11DD525C87C13006A252E /* Moods+CoreDataClass.swift */; };
+		00E11DD825C87C13006A252E /* Moods+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E11DD625C87C13006A252E /* Moods+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0035821F26029E9200175323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001370FE25928F5000DC6296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0035821926029E9200175323;
+			remoteInfo = dictation;
+		};
+		0035824126029FCB00175323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001370FE25928F5000DC6296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0035823626029FCB00175323;
+			remoteInfo = SiriIntentExtensionUI;
+		};
+		0035824426029FCB00175323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001370FE25928F5000DC6296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0035822B26029FCB00175323;
+			remoteInfo = SiriIntentExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0035822326029E9200175323 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0035822226029E9200175323 /* dictation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0035824D26029FCB00175323 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0035824326029FCB00175323 /* SiriIntentExtensionUI.appex in Embed App Extensions */,
+				0035824626029FCB00175323 /* SiriIntentExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0013710625928F5000DC6296 /* MoodLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +106,40 @@
 		0013711225928F5400DC6296 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0013711525928F5400DC6296 /* MoodLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoodLog.xcdatamodel; sourceTree = "<group>"; };
 		0013711725928F5400DC6296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0022280A2609FC2400A5F2C0 /* ActivityExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityExpandedView.swift; sourceTree = "<group>"; };
+		00222815260A538300A5F2C0 /* ActivityRatings+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityRatings+CoreDataClass.swift"; sourceTree = "<group>"; };
+		00222816260A538300A5F2C0 /* ActivityRatings+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityRatings+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0035821A26029E9200175323 /* dictation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = dictation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0035821C26029E9200175323 /* dictation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dictation.h; sourceTree = "<group>"; };
+		0035821D26029E9200175323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0035822C26029FCB00175323 /* SiriIntentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriIntentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0035822D26029FCB00175323 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		0035823026029FCB00175323 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		0035823226029FCB00175323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0035823726029FCB00175323 /* SiriIntentExtensionUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriIntentExtensionUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0035823826029FCB00175323 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		0035823B26029FCB00175323 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		0035823E26029FCB00175323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		0035824026029FCB00175323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003582992602AE6600175323 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		003582A12602AFBB00175323 /* MoodIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodIntentHandler.swift; sourceTree = "<group>"; };
+		003582AD2602B1DE00175323 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		003835D725FF522200C4D491 /* CalendarFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFunction.swift; sourceTree = "<group>"; };
+		003D0A672600E21C0043C78A /* ActivityOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityOptions.swift; sourceTree = "<group>"; };
+		003D0A6A2600F4540043C78A /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		006454E525CADBE200234BDE /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		006454EB25CADD6700234BDE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0066E17B26039A350058E337 /* ActivitesExpanded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitesExpanded.swift; sourceTree = "<group>"; };
+		00826DB225FBF68100D23ECA /* SuggestionCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionCalculator.swift; sourceTree = "<group>"; };
+		00826DB525FBF78A00D23ECA /* MoodClassifierActicity.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MoodClassifierActicity.mlmodel; sourceTree = "<group>"; };
+		0084F284260B485A002DD73F /* AddEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventView.swift; sourceTree = "<group>"; };
+		008A816425C96F61001E7F5C /* MoodLog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoodLog.entitlements; sourceTree = "<group>"; };
+		008A816625C96F61001E7F5C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		0099742525DDBC2600787502 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		00B323862608DA4900DB2013 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		00E04AB725E19F2400577AAC /* SuggestionReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionReviewView.swift; sourceTree = "<group>"; };
+		00E11DD525C87C13006A252E /* Moods+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Moods+CoreDataClass.swift"; sourceTree = "<group>"; };
+		00E11DD625C87C13006A252E /* Moods+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Moods+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +147,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B323872608DA4900DB2013 /* CloudKit.framework in Frameworks */,
+				0035822126029E9200175323 /* dictation.framework in Frameworks */,
+				008A816725C96F61001E7F5C /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0035821726029E9200175323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0035822926029FCB00175323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0035822E26029FCB00175323 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0035823426029FCB00175323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0035823926029FCB00175323 /* IntentsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +182,16 @@
 		001370FD25928F5000DC6296 = {
 			isa = PBXGroup;
 			children = (
+				00222815260A538300A5F2C0 /* ActivityRatings+CoreDataClass.swift */,
+				00222816260A538300A5F2C0 /* ActivityRatings+CoreDataProperties.swift */,
+				00E11DD525C87C13006A252E /* Moods+CoreDataClass.swift */,
+				00E11DD625C87C13006A252E /* Moods+CoreDataProperties.swift */,
 				0013710825928F5000DC6296 /* MoodLog */,
+				0035821B26029E9200175323 /* dictation */,
+				0035822F26029FCB00175323 /* SiriIntentExtension */,
+				0035823A26029FCB00175323 /* SiriIntentExtensionUI */,
 				0013710725928F5000DC6296 /* Products */,
+				008A816525C96F61001E7F5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +199,9 @@
 			isa = PBXGroup;
 			children = (
 				0013710625928F5000DC6296 /* MoodLog.app */,
+				0035821A26029E9200175323 /* dictation.framework */,
+				0035822C26029FCB00175323 /* SiriIntentExtension.appex */,
+				0035823726029FCB00175323 /* SiriIntentExtensionUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,11 +209,18 @@
 		0013710825928F5000DC6296 /* MoodLog */ = {
 			isa = PBXGroup;
 			children = (
+				001A104E2603602B00635223 /* CalendarIntegration */,
+				001A104D26035FE100635223 /* RatingView */,
+				001A104C26035F9F00635223 /* ActivityCalculator */,
+				001A104B26035F2200635223 /* MainViews */,
+				008A816425C96F61001E7F5C /* MoodLog.entitlements */,
 				0013710925928F5000DC6296 /* MoodLogApp.swift */,
 				0013710B25928F5000DC6296 /* ContentView.swift */,
+				003582AD2602B1DE00175323 /* AppIntent.swift */,
 				0013710D25928F5400DC6296 /* Assets.xcassets */,
 				0013711225928F5400DC6296 /* Persistence.swift */,
 				0013711725928F5400DC6296 /* Info.plist */,
+				00826DB525FBF78A00D23ECA /* MoodClassifierActicity.mlmodel */,
 				0013711425928F5400DC6296 /* MoodLog.xcdatamodeld */,
 				0013710F25928F5400DC6296 /* Preview Content */,
 			);
@@ -75,7 +235,98 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		001A104B26035F2200635223 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				006454E525CADBE200234BDE /* MoodView.swift */,
+				003D0A6A2600F4540043C78A /* ActivityView.swift */,
+				006454EB25CADD6700234BDE /* SettingsView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		001A104C26035F9F00635223 /* ActivityCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				00826DB225FBF68100D23ECA /* SuggestionCalculator.swift */,
+				0022280A2609FC2400A5F2C0 /* ActivityExpandedView.swift */,
+				003D0A672600E21C0043C78A /* ActivityOptions.swift */,
+				0066E17B26039A350058E337 /* ActivitesExpanded.swift */,
+			);
+			path = ActivityCalculator;
+			sourceTree = "<group>";
+		};
+		001A104D26035FE100635223 /* RatingView */ = {
+			isa = PBXGroup;
+			children = (
+				00E04AB725E19F2400577AAC /* SuggestionReviewView.swift */,
+				0099742525DDBC2600787502 /* RatingView.swift */,
+			);
+			path = RatingView;
+			sourceTree = "<group>";
+		};
+		001A104E2603602B00635223 /* CalendarIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				003835D725FF522200C4D491 /* CalendarFunction.swift */,
+				0084F284260B485A002DD73F /* AddEventView.swift */,
+			);
+			path = CalendarIntegration;
+			sourceTree = "<group>";
+		};
+		0035821B26029E9200175323 /* dictation */ = {
+			isa = PBXGroup;
+			children = (
+				0035821C26029E9200175323 /* dictation.h */,
+				0035821D26029E9200175323 /* Info.plist */,
+			);
+			path = dictation;
+			sourceTree = "<group>";
+		};
+		0035822F26029FCB00175323 /* SiriIntentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0035823026029FCB00175323 /* IntentHandler.swift */,
+				0035823226029FCB00175323 /* Info.plist */,
+				003582992602AE6600175323 /* Intents.intentdefinition */,
+				003582A12602AFBB00175323 /* MoodIntentHandler.swift */,
+			);
+			path = SiriIntentExtension;
+			sourceTree = "<group>";
+		};
+		0035823A26029FCB00175323 /* SiriIntentExtensionUI */ = {
+			isa = PBXGroup;
+			children = (
+				0035823B26029FCB00175323 /* IntentViewController.swift */,
+				0035823D26029FCB00175323 /* MainInterface.storyboard */,
+				0035824026029FCB00175323 /* Info.plist */,
+			);
+			path = SiriIntentExtensionUI;
+			sourceTree = "<group>";
+		};
+		008A816525C96F61001E7F5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B323862608DA4900DB2013 /* CloudKit.framework */,
+				008A816625C96F61001E7F5C /* HealthKit.framework */,
+				0035822D26029FCB00175323 /* Intents.framework */,
+				0035823826029FCB00175323 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0035821526029E9200175323 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0035821E26029E9200175323 /* dictation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0013710525928F5000DC6296 /* MoodLog */ = {
@@ -85,15 +336,72 @@
 				0013710225928F5000DC6296 /* Sources */,
 				0013710325928F5000DC6296 /* Frameworks */,
 				0013710425928F5000DC6296 /* Resources */,
+				0035822326029E9200175323 /* Embed Frameworks */,
+				0035824D26029FCB00175323 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0035822026029E9200175323 /* PBXTargetDependency */,
+				0035824226029FCB00175323 /* PBXTargetDependency */,
+				0035824526029FCB00175323 /* PBXTargetDependency */,
 			);
 			name = MoodLog;
 			productName = MoodLog;
 			productReference = 0013710625928F5000DC6296 /* MoodLog.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0035821926029E9200175323 /* dictation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0035822626029E9200175323 /* Build configuration list for PBXNativeTarget "dictation" */;
+			buildPhases = (
+				0035821526029E9200175323 /* Headers */,
+				0035821626029E9200175323 /* Sources */,
+				0035821726029E9200175323 /* Frameworks */,
+				0035821826029E9200175323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dictation;
+			productName = dictation;
+			productReference = 0035821A26029E9200175323 /* dictation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0035822B26029FCB00175323 /* SiriIntentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0035824A26029FCB00175323 /* Build configuration list for PBXNativeTarget "SiriIntentExtension" */;
+			buildPhases = (
+				0035822826029FCB00175323 /* Sources */,
+				0035822926029FCB00175323 /* Frameworks */,
+				0035822A26029FCB00175323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriIntentExtension;
+			productName = SiriIntentExtension;
+			productReference = 0035822C26029FCB00175323 /* SiriIntentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0035823626029FCB00175323 /* SiriIntentExtensionUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0035824726029FCB00175323 /* Build configuration list for PBXNativeTarget "SiriIntentExtensionUI" */;
+			buildPhases = (
+				0035823326029FCB00175323 /* Sources */,
+				0035823426029FCB00175323 /* Frameworks */,
+				0035823526029FCB00175323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriIntentExtensionUI;
+			productName = SiriIntentExtensionUI;
+			productReference = 0035823726029FCB00175323 /* SiriIntentExtensionUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -105,6 +413,15 @@
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					0013710525928F5000DC6296 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0035821926029E9200175323 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0035822B26029FCB00175323 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0035823626029FCB00175323 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -123,6 +440,9 @@
 			projectRoot = "";
 			targets = (
 				0013710525928F5000DC6296 /* MoodLog */,
+				0035821926029E9200175323 /* dictation */,
+				0035822B26029FCB00175323 /* SiriIntentExtension */,
+				0035823626029FCB00175323 /* SiriIntentExtensionUI */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +457,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0035821826029E9200175323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0035822A26029FCB00175323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0035823526029FCB00175323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0035823F26029FCB00175323 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -146,12 +488,84 @@
 			files = (
 				0013711325928F5400DC6296 /* Persistence.swift in Sources */,
 				0013711625928F5400DC6296 /* MoodLog.xcdatamodeld in Sources */,
+				0084F285260B485A002DD73F /* AddEventView.swift in Sources */,
+				00E11DD825C87C13006A252E /* Moods+CoreDataProperties.swift in Sources */,
+				0099742625DDBC2600787502 /* RatingView.swift in Sources */,
+				006454EC25CADD6700234BDE /* SettingsView.swift in Sources */,
+				0066E17C26039A360058E337 /* ActivitesExpanded.swift in Sources */,
+				003835D825FF522200C4D491 /* CalendarFunction.swift in Sources */,
 				0013710C25928F5000DC6296 /* ContentView.swift in Sources */,
+				00E11DD725C87C13006A252E /* Moods+CoreDataClass.swift in Sources */,
+				00222818260A538300A5F2C0 /* ActivityRatings+CoreDataProperties.swift in Sources */,
+				003D0A682600E21D0043C78A /* ActivityOptions.swift in Sources */,
+				003582AE2602B1DE00175323 /* AppIntent.swift in Sources */,
+				00826DB325FBF68100D23ECA /* SuggestionCalculator.swift in Sources */,
+				00826DB625FBF78B00D23ECA /* MoodClassifierActicity.mlmodel in Sources */,
+				003582A92602B0D000175323 /* Intents.intentdefinition in Sources */,
+				006454E625CADBE200234BDE /* MoodView.swift in Sources */,
 				0013710A25928F5000DC6296 /* MoodLogApp.swift in Sources */,
+				00222817260A538300A5F2C0 /* ActivityRatings+CoreDataClass.swift in Sources */,
+				003D0A6B2600F4540043C78A /* ActivityView.swift in Sources */,
+				0022280B2609FC2400A5F2C0 /* ActivityExpandedView.swift in Sources */,
+				00E04AB825E19F2400577AAC /* SuggestionReviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0035821626029E9200175323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0035822826029FCB00175323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0035829A2602AE6600175323 /* Intents.intentdefinition in Sources */,
+				0035823126029FCB00175323 /* IntentHandler.swift in Sources */,
+				003582A22602AFBB00175323 /* MoodIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0035823326029FCB00175323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0035823C26029FCB00175323 /* IntentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0035822026029E9200175323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0035821926029E9200175323 /* dictation */;
+			targetProxy = 0035821F26029E9200175323 /* PBXContainerItemProxy */;
+		};
+		0035824226029FCB00175323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0035823626029FCB00175323 /* SiriIntentExtensionUI */;
+			targetProxy = 0035824126029FCB00175323 /* PBXContainerItemProxy */;
+		};
+		0035824526029FCB00175323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0035822B26029FCB00175323 /* SiriIntentExtension */;
+			targetProxy = 0035824426029FCB00175323 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0035823D26029FCB00175323 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0035823E26029FCB00175323 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0013711825928F5400DC6296 /* Debug */ = {
@@ -273,8 +687,10 @@
 		0013711B25928F5400DC6296 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MoodLog/MoodLog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MoodLog/Preview Content\"";
 				DEVELOPMENT_TEAM = P8983A568P;
@@ -295,8 +711,10 @@
 		0013711C25928F5400DC6296 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MoodLog/MoodLog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MoodLog/Preview Content\"";
 				DEVELOPMENT_TEAM = P8983A568P;
@@ -309,6 +727,136 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.meghna.MoodLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0035822426029E9200175323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P8983A568P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = dictation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.meghna.dictation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0035822526029E9200175323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P8983A568P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = dictation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.meghna.dictation;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0035824826029FCB00175323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8983A568P;
+				INFOPLIST_FILE = SiriIntentExtensionUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.meghna.MoodLog.SiriIntentExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0035824926029FCB00175323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8983A568P;
+				INFOPLIST_FILE = SiriIntentExtensionUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.meghna.MoodLog.SiriIntentExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0035824B26029FCB00175323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8983A568P;
+				INFOPLIST_FILE = SiriIntentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.meghna.MoodLog.SiriIntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0035824C26029FCB00175323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8983A568P;
+				INFOPLIST_FILE = SiriIntentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.meghna.MoodLog.SiriIntentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,6 +879,33 @@
 			buildConfigurations = (
 				0013711B25928F5400DC6296 /* Debug */,
 				0013711C25928F5400DC6296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0035822626029E9200175323 /* Build configuration list for PBXNativeTarget "dictation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0035822426029E9200175323 /* Debug */,
+				0035822526029E9200175323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0035824726029FCB00175323 /* Build configuration list for PBXNativeTarget "SiriIntentExtensionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0035824826029FCB00175323 /* Debug */,
+				0035824926029FCB00175323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0035824A26029FCB00175323 /* Build configuration list for PBXNativeTarget "SiriIntentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0035824B26029FCB00175323 /* Debug */,
+				0035824C26029FCB00175323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
